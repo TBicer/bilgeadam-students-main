@@ -6,7 +6,9 @@
   --hue: 0;
   --sat: 0%;
   --title-color: hsl(var(--hue), var(--sat), 20%);
+  --nav-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --nav-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --menu-color: hsl(var(--hue), var(--sat), 90%);
@@ -17,9 +19,9 @@
 
   /*.5rem = 8px | 1rem = 16px ...*/
   --big-font-size: 3.5rem;
-  --h1-font-size: 2.25rem;
-  --h2-font-size: 1.5rem;
-  --h3-font-size: 1.25rem;
+  --h1-font-size: 2rem;
+  --h2-font-size: 1.125rem;
+  --h3-font-size: 1rem;
   --normal-font-size: 1rem;
   --small-font-size: 0.875rem;
   --smaller-font-size: 0.813rem;
@@ -115,22 +117,6 @@ img {
   align-items: center;
 }
 
-/*=============== Menu Section ===============*/
-
-.menu__container {
-  background-color: var(--menu-color);
-  position: fixed;
-  z-index: 100;
-  width: 25rem;
-  height: 100vh;
-}
-
-/*=============== Hero Section ===============*/
-
-.hero__container {
-  margin-left: 25rem;
-}
-
 /*=============== BREAKPOINTS ===============*/
 
 /* For large devices */
@@ -146,7 +132,4 @@ img {
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-  :root {
-    --big-font-size: 2.25rem;
-  }
 }

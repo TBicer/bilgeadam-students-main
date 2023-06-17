@@ -1,11 +1,11 @@
-import HeroContainer from '@/components/HeroContainer';
-import MenuContainer from '@/components/MenuContainer';
+import Header from '@/components/header/Header'
+import Hero from '@/components/hero/Hero'
 
 export default function Home() {
   return (
     <>
-      <MenuContainer />
-      <HeroContainer />
+      <Header />
+      <Hero />
     </>
-  );
+  )
 }

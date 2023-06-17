@@ -1,0 +1,38 @@
+.menu__container {
+  background-color: var(--menu-color);
+  position: fixed;
+  z-index: 100;
+  width: 25rem;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  padding: 0 2rem;
+}
+.logo {
+  margin-bottom: var(--mb-1);
+}
+
+.nav__container {
+  display: flex;
+  flex-flow: column;
+  gap: 1.25rem;
+}
+
+.nav__link {
+  height: 3rem;
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-medium);
+  color: var(--nav-color);
+}
+
+.nav__icon {
+  margin-bottom: -0.25rem;
+}
+.nav__link:hover {
+  color: var(--nav-color-dark);
+}
+.nav__toggle {
+  display: none;
+  position: absolute;
+}
